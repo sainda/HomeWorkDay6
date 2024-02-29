@@ -1,0 +1,48 @@
+.fullName, .passwordConf{
+    display: flex;
+    gap: 3rem;
+}
+label{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+h1{
+    font-size: 2rem;
+    color: rgb(37, 49, 73);
+    margin-left: 0.5rem;
+    margin-top: 5rem;
+}
+h4{
+    font-size: 1.1rem;
+    font-weight: 200;
+}
+h3{
+    color: red;
+}
+.input{
+    height: 2rem;
+    width: 15rem;
+    border: 1px solid rgb(220, 219, 219);
+}
+.email{
+    width: 33rem;
+}
+.check{
+    display: flex;
+    align-items: center;
+}
+button{
+    margin-top: 1rem;
+    background-color: #13af13;
+    color: white;
+    font-size: 1.5rem;
+    width: 8rem;
+    height: 3rem;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #138113;
+}
